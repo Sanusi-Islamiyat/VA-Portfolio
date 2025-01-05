@@ -38,13 +38,18 @@ body {
     
   }
 
-  .middle-sect {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 120px 1fr;
-    gap: 12px;
+  .frags {
     color: #221712;
     font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
+  }
+
+  .middle-sect {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 120px ;
+    gap: 12px;
+    
   }
 
   .contact, .resume {
