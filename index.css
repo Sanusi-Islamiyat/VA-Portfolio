@@ -1,25 +1,27 @@
 body {
   font-family: "Montserrat", serif;
+  
+  
 }
   
   .header-cont {
-    width: 100%;
+    max-width:  1440px;
     height: 100vh;
     position: relative;
     background-color: #fff;
     border-radius: 12px;
+    justify-self: center;
   }
 
   .nav-bar {
-    width: 1440px;
+    width:1440px;
     height: 100px;
     display: grid;
     grid-template-columns: 150px 650px 140px;
-    margin-inline-start: 220px;
     gap: 246px;
     align-items: center;
-    
-    
+    justify-self: center;
+      
   }
 
   .port, .port-1, .port-2{
@@ -71,19 +73,26 @@ body {
 
   .main-photo {
     position: absolute;
-    right: 220px;
-    top: 220px;
+    right: 0px;
+    top: 200px;
+    width: 500px;
   }
-
+  
+  .abstract {
+    position: absolute;
+    right: 500px;
+    top: 660px;
+    width: 100px;
+    height: 100px;
+  }
   .hdl {
     line-height: 60px;
     font-size: 40px;
-    margin-inline-start: 220px;
     margin-block-start: 120px;
   }
 
   .para {
-    margin-inline-start: 220px;
+   
     line-height: 28px;
     font-size: 16px;
     font-weight: 500;
@@ -91,16 +100,34 @@ body {
   }
 
   .resume{
-  margin-inline-start: 220px;
   margin-block-start: 20px;
   }
 
   .plane {
     position: absolute;
-    left: 800px;
+    left: 560px;
     width: 200px;
     height: 200px;
     top: 400px;
+  }
+
+  .va-type {
+    position: absolute;
+    bottom: 60px;
+    left: 220px;
+   height: 100px;
+    width: 1000px;
+    background-color: #fff3ed;
+    box-shadow: 8px 8px #221712;
+    border: 1px solid #ECECD3;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 190px 140px 220px 150px 150px;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+
+
   }
 
   .about {
@@ -108,8 +135,7 @@ body {
     height: 70vh;
     background-color: #ffffff;
     position: relative;
-    border-radius: 12px;
-    margin-inline-start: 220px;
+   justify-self: center;
    
     
   }
@@ -117,6 +143,7 @@ body {
   .my-main {
 position: absolute;
 width: 500px;
+left: 4px;
   }
 
   .abt-me {
@@ -140,10 +167,11 @@ width: 500px;
   }
 
   .services {
-    width: 100%;
+    width: 1440px;
     height: 100vh;
     position: relative;
     background-color: #fffffe;
+    justify-self: center;
   }
 
   .serv, .skills, .project-h, .test-h {
@@ -167,7 +195,7 @@ width: 500px;
     box-shadow: 8px 8px #221712;
     position: absolute;
     top: 260px;
-    left: 220px;
+    left: 4px;
     border: 2px solid #221712;
     border-radius: 12px;
     background-color: #fff;
@@ -180,7 +208,7 @@ width: 500px;
     position: absolute;
     border: 2px solid #221712;
     top: 260px;
-    right: 220px;
+    right: 12px;
     border-radius: 12px;
     background-color: #fff;
   }
@@ -193,7 +221,7 @@ width: 500px;
     position: absolute;
     border: 2px  solid #221712;
     top: 460px;
-    right: 740px;
+    right: 524px;
     border-radius: 12px;
     background-color: #fff;
   }
@@ -232,8 +260,9 @@ width: 500px;
   }
 
   .skill {
-    width: 100%;
+    width: 1440px;
     height: 100vh;
+    margin-inline-start: 220px;
    
     
   }
@@ -245,14 +274,14 @@ width: 500px;
   .skills-cont {
     display: grid;
     grid-template-columns: 400px 800px;
-    gap: 60px;
+    gap: 44px;
   }
 
   .skill-1, .skill-2 {
     width: 400px;
+    margin-inline-start: 4px;
     height: 400px;
     border: 1px solid #221712;
-    margin-inline-start: 220px;
     margin-block-start: 50px;
     border-radius: 12px;
     box-shadow: 8px 8px #221712;
@@ -263,18 +292,19 @@ width: 500px;
   .skill-2 {
     width: 980px;
     background-color:#fff6fd ;
+    margin-inline-start: 0px;
   
    
   }
 
   .tool {
-    width: 1440px;
+    width: 1420px;
     height: 200px;
     border: 1px solid #221712;
     margin-block-start: 50px;
     border-radius: 12px;
     box-shadow: 8px 8px #221712;
-    margin-inline-start: 220px;
+    margin-inline-start: 4px;
     background-color: #edfcff;;
     
   }
@@ -328,16 +358,18 @@ width: 500px;
   }
 
   .projects {
-    width: 100%;
+    width: 1440px;
     height: 300vh;
+    justify-self: center;
+    
   }
 
   .project-1 {
-    width: 100%;
+    width: 1440px;
     height: 70vh;
-   
     display: grid;
     grid-template-columns: 600px 1fr;
+   
     
   }
 
@@ -349,14 +381,14 @@ width: 500px;
       transform: rotate(340deg); 
       display: inline-block;
       margin-block-start: 70px;
-      margin-inline-start: 220px;
       border-radius: 12px;
       box-shadow: 8px 8px #221712;
+      margin-inline-start: 72px;
     }
 
     .prjt-2-box {
       transform: rotate(20deg);
-      margin-inline-start: 520px;
+      margin-inline-start: 260px;
     }
 
     .prjt-img {
@@ -366,13 +398,12 @@ width: 500px;
     }
     
   .prjt-1-desc {
-    margin-inline-start: 200px;
     margin-block-start: 140px;
   }
 
   .prjt-1-p {
     width: 640px;
-    margin-inline-start: 220px;
+   margin-inline-start: 186px;
     font-size: 16px;
     font-weight: 500;
     color: #221712;
@@ -382,25 +413,26 @@ width: 500px;
 
   .prjt-2-p {
     width: 640px;
-   
     font-size: 16px;
     font-weight: 500;
     color: #221712;
     line-height: 32px;
     text-align: justify;
+    margin-inline-start: 8px;
   }
 
   .testimonials {
-    width: 100%;
+    width: 1440px;
     height: 80vh;
+    justify-self: center;
     
-
   }
 
   .test-cont {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    margin-inline-start: 8px;
+    gap: 336px;
 
   }
 
@@ -414,16 +446,17 @@ width: 500px;
     border-radius: 50%;
   height: 70px;
   width: 64px;
-  margin-inline-start: 220px;
+ 
   margin-block-start: 420px;
   
   }
 
   footer {
-    width: 100%;
+    width: 1440px;
     height: 30vh;
     background-color: #7e5556;
     position: relative;
+    justify-self: center;
   }
 
   .footer {
@@ -431,9 +464,13 @@ width: 500px;
     height: 30vh;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 300px 1fr 1fr 1fr 1fr 1fr;
     gap: 40px;
     color: #ECECD3;
+  }
+
+  .foot-des {
+    font-size: 12px;
   }
   
 
@@ -462,13 +499,13 @@ width: 500px;
   .foot-des {
     display: grid;
     grid-template-rows: 36px 30px 30px 30px;
-    margin-block-start: 20px;
+    margin-block-start: 36px;
     
   }
 
   .icons-link {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     color: #ECECD3;
     text-decoration: none;
   }
@@ -477,12 +514,12 @@ width: 500px;
     position: absolute;
     font-size: 12px;
     bottom: 20px;
-    left: 900px;
+  justify-self: center;
   }
 
   .copy-r {
     position: absolute;
     font-size: 12px;
     bottom: 0px;
-    left: 918px;
+   justify-self: center;
   }
