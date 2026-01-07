@@ -359,7 +359,7 @@ left: 4px;
 
   .projects {
     width: 1440px;
-    height: 370vh;
+   
     justify-self: center;
     
   }
@@ -522,4 +522,16 @@ left: 4px;
     font-size: 12px;
     bottom: 0px;
    justify-self: center;
+  }
+
+  .research {
+    width: 800px;
+  }
+
+  .calender{
+    width: 100%;
+  max-width: 1440px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   }
